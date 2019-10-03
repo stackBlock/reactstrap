@@ -246,6 +246,7 @@ Once the release branch is merged, checkout master and run:
 ```bash
 ./scripts/publish
 ```
+anthony
 
 This will build the current state of master, tag it based on the release version and push the tag up to GitHub. Travis will detect the new tag and publish to npm.
 
